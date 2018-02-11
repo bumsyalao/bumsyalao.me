@@ -1,0 +1,18 @@
+@media (max-width: 700px) {
+	.link-item {
+		border-bottom: none;
+		span {
+			display: none;
+		}
+		.mdi {
+			font-size: 1.3rem;
+			font-weight: 700;
+			display: block;
+		}
+	}
+	.dark-theme {
+		.link-item .mdi {
+			color: $accent;
+		}
+	}
+}

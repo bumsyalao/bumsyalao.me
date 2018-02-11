@@ -1,0 +1,18 @@
+@import '~normalize-scss/sass/_normalize.scss';
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+$accent: #bada55;
+
+body {
+	background-color: transparent;
+	font-size: 16px;
+	line-height: 1.4;
+	font-family: 'PT Sans', Helvetica, sans-serif;
+}
+
+* {
+	box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
+}
+
+@import 'structure';
+@import 'responsive';
