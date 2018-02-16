@@ -62,6 +62,9 @@ const Page = () => {
                         </div>
                     </div>
                 </div>
+                <footer>
+                    <p className="center"> <i className="mdi mdi-copyright"></i>Copyright 2018 | Bunmi Alao </p>
+                </footer>
             </div> <a class="top waves-effect waves-light" href="#top"><i class="lnr lnr-chevron-up"></i></a>
         </div>
     );
