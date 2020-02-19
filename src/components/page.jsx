@@ -45,8 +45,7 @@ const Page = () => {
                 <div className="card-panel">
                   <h5 className="card-title grey-text text-darken-4">Post-It</h5><span className="grey-text text-darken-3">Post-it is an application that allows users create groups and post messages to group and promote collaboration.</span></div>
               </a>
-            </div>
-            <div className="row project-row">
+
               <a className="col s12 m6" href="https://the-consent-game.herokuapp.com/">
                 <div className="card-panel">
                   <h5 className="card-title grey-text text-darken-4">The-Consent-Game</h5><span className="grey-text text-darken-3">The consent game is built for The Consent Workshop, to teach young adults about consent.</span></div>
