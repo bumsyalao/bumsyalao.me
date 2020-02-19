@@ -4,7 +4,6 @@
 	"description": "Personal website",
 	"main": "webpack.config.js",
 	"scripts": {
-		"pdf": "rm -rf resume.pdf && babel-node make-pdf.js",
 		"dev": "NODE_ENV=development nodemon server.js",
 		"build": "rm -rf dist && NODE_ENV=production webpack --config webpack.config.js --progress --colors"
 	},
@@ -32,7 +31,7 @@
 		"babel-preset-stage-0": "6.24.1",
 		"css-loader": "0.28.8",
 		"file-loader": "1.1.6",
-		"node-sass": "4.7.2",
+		"node-sass": "^4.13.1",
 		"nodemon": "1.14.10",
 		"postcss-loader": "2.0.10",
 		"sass-loader": "6.0.6",

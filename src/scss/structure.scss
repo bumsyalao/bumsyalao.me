@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:400,200,100,300');
 
 $font: Work Sans;
-$main: #917D9A;
-$deep: #19151B;
+$main: #FDFDFD;
+$deep: #EDEDED;
 
 .main {
   background: $main;
@@ -22,8 +22,11 @@ p {
   font-size: 1.15rem;
   font-weight: 200 !important;
 }
+.card-panel {
+  min-height: 180px;
+}
 a.underline {
-  color: #fff;
+  color: #303030;
   font-style: italic;
 }
 
@@ -33,7 +36,15 @@ body {
 
 .heading {
   font-size: 4.5rem;
-  color: #fff;
+  color: #303030;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  animation: typing 3.5s steps(30, end);
+  @media (max-width: 600px) {
+      font-size: 2.5rem;
+      width: 100%;
+    }
 }
 
 .header {
@@ -45,17 +56,17 @@ body {
     height: 1px;
     width: 10em;
     margin: 2em auto;
-    background: rgba(255,255,255,.25);
+    background: #303030;
   }
   
   i {
     font-size: 2.5rem;
-    color: #fff !important;
+    color: #303030 !important;
   }
   
   h1, h2, h3, h4, h5 , h6 {
     font-weight: 200 !important;
-    color: #fff;
+    color: #303030;
   }
 }
 
@@ -83,7 +94,7 @@ body {
     border-bottom: 1px solid transparent;
     
     &:hover {
-      border-color: rgba(255,255,255,.85);
+      border-color: #303030;
     }
     
     &:last-child {
@@ -95,7 +106,7 @@ body {
     }
     
     a {
-      color: #fff;
+      color: #303030;
       font-weight: 500;
       text-transform: uppercase;
       padding: 2em 2em 1em;
@@ -112,6 +123,10 @@ body {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
+
+  .see-more {
+    margin-top: 3rem;
+  }
 }
 
 .grad {
@@ -149,17 +164,16 @@ body {
 .min {
   background: none !important;
   box-shadow: none;
-  border: 1px solid rgba(255,255,255,.65);
-  color: #fff !important;
+  border: 1px solid #303030;
+  color: #303030 !important;
   font-weight: 300;
   font-size: 1.25rem;
   transition: 300ms ease;
   
   &:hover {
-    color: #000 !important;
+    color: $main !important;
     box-shadow: none;
-    background: #fff !important;
-    color: $main;
+    background: #303030 !important;
   }
 }
 
@@ -178,7 +192,6 @@ body {
 .contact {
   margin-top: 3em;
   margin-bottom: 7em;
-  height: 70vh;
 }
 
 .flow-content {
@@ -197,7 +210,7 @@ body {
   margin: 0 auto !important;
   
   i {
-    color: #fff;
+    color: #303030;
     font-size: 3rem;
     // margin: .5em .75em;
   }
@@ -210,25 +223,25 @@ body {
     height: 1px;
     width: 10em;
     margin: 1.5em auto 0;
-    background: rgba(255,255,255,.25);
+    background: #303030;
   }
   
   p.flow-text {
     font-weight: 300 !important;
-    color: #fff !important;
+    color: #303030 !important;
   }
 }
 
 
 h3.about-me {
   font-weight: 200 !important;
-  color: #fff;
+  color: #303030;
   margin-top: .5em !important;
   text-align: center;
 }
 
 .tech-head {
-  color: #fff;
+  color: #303030;
   font-weight: 100;
   text-align: center;
 }
@@ -256,7 +269,7 @@ h3.about-me {
 }
 .contact-icon {
 	font-size: 3rem;
-	color: #eee;
+	color: #303030;
 }
 .contacts {
 	margin-top: 5rem;
@@ -264,25 +277,25 @@ h3.about-me {
 	flex-direction: row;
 	justify-content: space-evenly;
 	a {
-		color: #fff;
+		color: #303030;
 	}
 }
 footer {
-  color: #fff;
+  color: #303030;
 }
 
 .input-field label {
-  color: rgba(255,255,255,1);
+  color: #303030;
   font-weight: 200;
 }
 /* label focus color */
 .input-field input[type=text]:focus + label {
- color: rgba(255,255,255,1);
+ color: #303030;
 }
 /* label underline focus color */
 .input-field input[type=text]:focus {
- border-bottom: 1px solid #fff;
- box-shadow: 0 1px 0 0 #fff;
+ border-bottom: 1px solid #303030;
+ box-shadow: 0 1px 0 0 #303030;
 }
 
 // blog
@@ -290,7 +303,7 @@ footer {
   position: fixed;
   height: 100vh;
   width: 35%;
-  background: #fff;
+  background: #303030;
   z-index: 2000;
   right: 0;
   margin-right: -50%;
@@ -344,10 +357,10 @@ $random: $random-c;
   background: none;
   
   &:hover {
-    color: #fff !important;
+    color: #303030 !important;
     
     a {
-      color: #fff;
+      color: #303030;
     }
   }
   
@@ -365,7 +378,7 @@ $random: $random-c;
   }
   
   &:last-child {
-    border-bottom: 1px solid #d0d5d8;
+    border-bottom: 1px solid #303030;
   }
 }
 
@@ -383,8 +396,14 @@ $random: $random-c;
   }
   
   i {
-    color: #fff;
+    color: #303030;
     font-size: 1.25em;
   }
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
 }
 
