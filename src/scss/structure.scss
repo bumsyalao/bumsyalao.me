@@ -142,7 +142,7 @@ body {
   height: 70vh;
   
   .content {
-	margin-top: 10em;
+	margin-top: 5em;
     color: #161616;
     text-align: center;
     letter-spacing: 3px;
@@ -191,6 +191,7 @@ body {
 
 .contact {
   margin-top: 3em;
+  min-height: 50vh;
   margin-bottom: 7em;
 }
 
@@ -273,7 +274,7 @@ h3.about-me {
 	color: #303030;
 }
 .contacts {
-	margin-top: 5rem;
+	// margin-top: 5rem;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
