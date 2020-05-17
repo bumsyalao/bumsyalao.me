@@ -192,8 +192,9 @@ body {
 
 .contact {
   margin-top: 3em;
-  min-height: 70vh;
-  margin-bottom: 3em;
+  height: 70vh;
+  max-height: 50vh;
+  margin-bottom: 7em;
 }
 
 .flow-content {
