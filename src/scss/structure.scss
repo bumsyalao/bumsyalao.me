@@ -125,9 +125,6 @@ body {
   top: 50%;
   transform: translateY(-50%);
 
-  .see-more {
-    margin-top: 3rem;
-  }
 }
 
 .grad {
@@ -158,6 +155,26 @@ body {
       span {
         color: blue;
       }
+    }
+    .translation {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .translation-btn{
+        background: none;
+        border: none;
+        color: blue;
+        cursor: pointer;
+        outline: none;
+      
+        span {
+          font-size: 20px !important;
+        }
+      }
+    }
+    .see-more {
+      margin-top: 2rem;
     }
   }
 }

@@ -43,8 +43,9 @@
 	"dependencies": {
 		"animate.css": "^3.6.1",
 		"express": "4.16.2",
+		"material-components-web": "^6.0.0",
 		"normalize-scss": "7.0.0",
-		"react": "16.2.0",
-		"react-dom": "16.2.0"
+		"react": "^16.13.1",
+		"react-dom": "^16.13.1"
 	}
 }
