@@ -81,18 +81,20 @@ class Page extends React.Component {
               </div>
             </div>
           </div>
-          <div className="container contact wow animted fadeInUp" id="contact">
-            <div>
-              <div className="row">
-                <div className="col s12 center header white-text"><i className="lnr lnr-coffee-cup"></i>
-                  <h3 className="text-white">Contact Me</h3>
+          <div className="container contact" id="contact">
+            <div className="content flow-content wow animted fadeInUp" id="contact">
+              <div>
+                <div className="row">
+                  <div className="col s12 center header white-text"><i className="lnr lnr-coffee-cup"></i>
+                    <h3 className="text-white">Contact Me</h3>
+                  </div>
                 </div>
-              </div>
-              <div className="contacts">
-                <a href="https://github.com/bumsyalao" target="_blank"><i className="mdi mdi-github-circle contact-icon animated wobble" /><br />GITHUB</a>
-                <a href="mailto:bumsyalao@gmail.com" target="_blank"><i className="mdi mdi-gmail contact-icon" /><br />GMAIL</a>
-                <a href="https://bumsyalao.github.io/resume/" target="_blank"><i className="mdi mdi-file-document contact-icon" /><br />RESUME</a>
-                <a href="https://www.linkedin.com/in/bumsyalao" target="_blank"><i className="mdi mdi-linkedin-box contact-icon" /><br />LINKEDIN</a>
+                <div className="contacts">
+                  <a href="https://github.com/bumsyalao" target="_blank"><i className="mdi mdi-github-circle contact-icon animated wobble" /><br />GITHUB</a>
+                  <a href="mailto:bumsyalao@gmail.com" target="_blank"><i className="mdi mdi-gmail contact-icon" /><br />GMAIL</a>
+                  <a href="https://bumsyalao.github.io/resume/" target="_blank"><i className="mdi mdi-file-document contact-icon" /><br />RESUME</a>
+                  <a href="https://www.linkedin.com/in/bumsyalao" target="_blank"><i className="mdi mdi-linkedin-box contact-icon" /><br />LINKEDIN</a>
+                </div>
               </div>
             </div>
           </div>
