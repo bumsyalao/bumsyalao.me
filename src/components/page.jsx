@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-class Page extends React.Component{
+class Page extends React.Component {
   constructor(props) {
     super(props);
     this.myRef = React.createRef();
@@ -30,8 +30,8 @@ class Page extends React.Component{
                   <audio ref={this.myRef} id="myAudio">
                     <source src="https://res.cloudinary.com/dcpfdxsly/video/upload/v1588351970/Bunmi_sptkgn.m4a" type="audio/ogg" />
                     <source src="https://res.cloudinary.com/dcpfdxsly/video/upload/v1588351970/Bunmi_sptkgn.m4a" type="audio/mpeg" />
-                  Your browser does not support the audio element.
-                </audio>
+                    Your browser does not support the audio element.
+                  </audio>
                   <span className="material-icons">volume_up</span>
                 </button>
               </div>
@@ -45,7 +45,7 @@ class Page extends React.Component{
               <h3 className="about-me">About Me</h3>
               <div className="row about">
                 <div className="col s12 m6 offset-m3">
-                  <p className="flow-text">I am passionate about learning and building stuff for the web. When I'm not working with teams to solve challenges, I like to work on my own stuff, check them out below &#128512;</p>
+                  <p className="flow-text">I am passionate about learning and building for the web. When I'm not working with teams to solve challenges, I like to work on my own stuff, check them out below &#128512;</p>
                 </div>
               </div>
             </div>
@@ -58,18 +58,21 @@ class Page extends React.Component{
                 </div>
               </div>
               <div className="row project-row">
-                <a className="col s12 m6" href="https://ideabox-now.herokuapp.com/">
+                <a className="col s12 m6" href="https://github.com/bumsyalao/github-searcher">
+                  <div className="card-panel">
+                    <h5 className="card-title grey-text text-darken-4">Github Searcher</h5><span className="grey-text text-darken-3">Github Searcher is an application that allows users to search through github users and repository.</span></div>
+                </a>
+                {/* <a className="col s12 m6" href="https://ideabox-now.herokuapp.com/">
                   <div className="card-panel">
                     <h5 className="card-title grey-text text-darken-4">Ideabox</h5><span className="grey-text text-darken-3">Ideabox is an application that allows users to create a pool of ideas and promote collaboration.</span></div>
+                </a> */}
+                <a className="col s12 m6" href="https://the-consent-game.herokuapp.com/">
+                  <div className="card-panel">
+                    <h5 className="card-title grey-text text-darken-4">The-Consent-Game</h5><span className="grey-text text-darken-3">The consent game is built for The Consent Workshop, to teach young adults about consent.</span></div>
                 </a>
                 <a className="col s12 m6" href="https://postit-now.herokuapp.com/">
                   <div className="card-panel">
                     <h5 className="card-title grey-text text-darken-4">Post-It</h5><span className="grey-text text-darken-3">Post-it is an application that allows users create groups and post messages to group and promote collaboration.</span></div>
-                </a>
-  
-                <a className="col s12 m6" href="https://the-consent-game.herokuapp.com/">
-                  <div className="card-panel">
-                    <h5 className="card-title grey-text text-darken-4">The-Consent-Game</h5><span className="grey-text text-darken-3">The consent game is built for The Consent Workshop, to teach young adults about consent.</span></div>
                 </a>
                 <a className="col s12 m6" href="https://bumsyalao.github.io/Flames/">
                   <div className="card-panel">
