@@ -82,7 +82,7 @@ class Page extends React.Component {
             </div>
           </div>
           <div className="container contact" id="contact">
-            <div className="content flow-content wow animted fadeInUp" id="contact">
+            <div className="content flow-content wow animted fadeInUp">
               <div>
                 <div className="row">
                   <div className="col s12 center header white-text"><i className="lnr lnr-coffee-cup"></i>
