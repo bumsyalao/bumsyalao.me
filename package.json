@@ -31,7 +31,7 @@
 		"babel-preset-stage-0": "6.24.1",
 		"css-loader": "0.28.8",
 		"file-loader": "1.1.6",
-		"node-sass": "^4.13.1",
+		"node-sass": "^7.0.0",
 		"nodemon": "1.14.10",
 		"postcss-loader": "2.0.10",
 		"sass-loader": "6.0.6",
